@@ -5,3 +5,5 @@
 heepByte deviceIDByte [STANDARD_ID_SIZE] = {0x00, 0x00, 0x00, 0x00};
 uint8_t mac[6] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 unsigned char clearMemory = 1;
+
+char* heepDeviceName = "ClimateSensor";

@@ -70,7 +70,7 @@ void setup()
   AddRangeControl("Humidity Tresh",HEEP_INPUT,100,0,0);
   AddOnOffControl("Temp Trigger",HEEP_OUTPUT,0);
   AddOnOffControl("Humidity Trigger",HEEP_OUTPUT,0);
-  StartHeep("HumidityTemp", 5);
+  StartHeep(heepDeviceName, 5);
 
   dht.begin();
 
